@@ -91,8 +91,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
@@ -103,7 +103,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -334,7 +334,7 @@ body {
 
 .regular-text {
     font-size: 16px;
-    font-weight:400;
+    font-weight:400; 
 }
 
 .btn-large {
@@ -715,16 +715,24 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #skill {
+<<<<<<< HEAD
     background: url('../../images/metalCircles.png') no-repeat scroll center center / cover;
+=======
+    background: url('../../images/fuschiaFlower.jpg') no-repeat scroll center center / cover;
+>>>>>>> master
 }
 
 #skill .sec-overlay {
     background: rgba(255,255,255, .92);
+<<<<<<< HEAD
     opacity: 1;
+=======
+    opacity: 0.5;
+>>>>>>> master
     height: 100%;
     width: 100%;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; 
 }
 
 .smallSkills {
@@ -938,7 +946,7 @@ header.nav.hide-menu {
 
 .rev-title-wrap {
     padding :13px 19px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;  
 }
 
 .rev-content {
@@ -1002,32 +1010,32 @@ header.nav.hide-menu {
     border-color : #fff;
 }
 
-.protfolio-item {
+.portfolio-item {
     margin-bottom: 50px;
 }
-.protfolio-item li {
+.portfolio-item li {
     float: left;
     width: 33%;
     margin-right: .33%;
     margin-bottom: .33%;
 }
 
-.protfolio-item li a {
+.portfolio-item li a {
     display: block;
     background-color: inherit;
 }
 
-.protfolio-image {
+.portfolio-image {
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
-.protfolio-image img {
+.portfolio-image img {
     display: block;
 }
 
-.protfolio-content {
+.portfolio-content {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -1060,7 +1068,7 @@ header.nav.hide-menu {
     opacity: 0;
 }
 
-.protfolio-content:before {
+.portfolio-content:before {
     content: '';
     display: inline-block;
     vertical-align: middle;
@@ -1069,20 +1077,20 @@ header.nav.hide-menu {
     margin-left: -6px;
 }
 
-.protfolio-content__inner {
+.portfolio-content__inner {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
 }
 
-.protfolio-content .p-title {
+.portfolio-content .p-title {
     font-weight: 400;
     font-size: 20px;
     color: #ffcc33;
     text-transform: uppercase;
 }
 
-.protfolio-image:hover .p-overlay {
+.portfolio-image:hover .p-overlay {
     opacity: 1;
     filter: alpha(opacity=100);
     -webkit-transform: scale(1.6);
@@ -1090,7 +1098,7 @@ header.nav.hide-menu {
             transform: scale(1.6);
 }
 
-.protfolio-image:hover .protfolio-content {
+.portfolio-image:hover .portfolio-content {
     opacity: 0.9;
     filter: alpha(opacity=90);
     -webkit-transform: scale(1);
@@ -1201,7 +1209,7 @@ header.nav.hide-menu {
 
 .testimonial-inner .btn-wrapp {
     top: 60.5%;
-}
+} 
 
 /* --------------------------------- */
 /* 11. Blog Styles
@@ -1264,8 +1272,8 @@ header.nav.hide-menu {
 
 .thumb-slides-container. img {
     width: 100%;
-}
-.thumb-slides-container.owl-theme .owl-controls {
+} 
+.thumb-slides-container.owl-theme .owl-controls { 
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -1377,7 +1385,7 @@ span.num {
     font-size: 60px;
     margin-bottom: 13px;
     display: block;
-
+    
 }
 
 .feature-box-outer {}
@@ -1832,7 +1840,7 @@ span.num {
 
 
 .circular {
-    width:40px;
+    width:40px; 
     height:40px;
     -webkit-animation: rotate 2s linear infinite;
             animation: rotate 2s linear infinite;
@@ -1840,7 +1848,7 @@ span.num {
 
 
 .circular.size-20 {
-    width:20px;
+    width:20px; 
     height:20px;
 }
 
@@ -1869,7 +1877,7 @@ span.num {
     stroke-dasharray: 1,200;
     stroke-dashoffset: 0;
   }
-  50%  {
+  50%  { 
     stroke-dasharray: 89,200;
     stroke-dashoffset: -35;
   }
@@ -1884,7 +1892,7 @@ span.num {
     stroke-dasharray: 1,200;
     stroke-dashoffset: 0;
   }
-  50%  {
+  50%  { 
     stroke-dasharray: 89,200;
     stroke-dashoffset: -35;
   }
@@ -1895,4 +1903,8 @@ span.num {
 }
 
 
+<<<<<<< HEAD
 /* Add your CSS below */
+=======
+/* Add your CSS below */
+>>>>>>> master

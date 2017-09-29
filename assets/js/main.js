@@ -597,10 +597,10 @@ $(window).load(function(){
 
 
 	// portfolio Mesonary
-	if ( $('#protfolio-msnry').length > 0 ) {
+	if ( $('#portfolio-msnry').length > 0 ) {
 		// init Isotope
 		var loading = 0;
-		var portfolioMsnry = $('#protfolio-msnry').isotope({
+		var portfolioMsnry = $('#portfolio-msnry').isotope({
 			itemSelector: '.single-port-item',
 			layoutMode: 'fitRows'
 		});
@@ -653,8 +653,13 @@ $(window).load(function(){
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portLink = portfolioModal.find('.modal-footer .modal-action');
+<<<<<<< HEAD
 
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
+=======
+		
+		$('#portfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
+>>>>>>> master
 			e.preventDefault();
 			var $this = $(this);
 			portfolioModal.openModal({
