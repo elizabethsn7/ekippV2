@@ -653,13 +653,8 @@ $(window).load(function(){
 			portTitle = portfolioModal.find('.modal-content .title'),
 			portContent = portfolioModal.find('.modal-content .m-content'),
 			portLink = portfolioModal.find('.modal-footer .modal-action');
-<<<<<<< HEAD
 
 		$('#protfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
-=======
-		
-		$('#portfolio-msnry').delegate('a.modal-trigger', 'click', function(e){
->>>>>>> master
 			e.preventDefault();
 			var $this = $(this);
 			portfolioModal.openModal({

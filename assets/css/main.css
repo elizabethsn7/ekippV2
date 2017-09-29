@@ -715,23 +715,13 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #skill {
-<<<<<<< HEAD
     background: url('../../images/metalCircles.png') no-repeat scroll center center / cover;
-=======
-    background: url('../../images/fuschiaFlower.jpg') no-repeat scroll center center / cover;
->>>>>>> master
 }
 
 #skill .sec-overlay {
     background: rgba(255,255,255, .92);
-<<<<<<< HEAD
-    opacity: 1;
-=======
-    opacity: 0.5;
->>>>>>> master
     height: 100%;
     width: 100%;
-    padding-top: 60px;
     padding-bottom: 100px; 
 }
 
@@ -1902,9 +1892,4 @@ span.num {
   }
 }
 
-
-<<<<<<< HEAD
 /* Add your CSS below */
-=======
-/* Add your CSS below */
->>>>>>> master
