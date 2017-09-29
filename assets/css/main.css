@@ -715,16 +715,24 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #skill {
-    background: url('../../images/apples.png') no-repeat scroll center center / cover;
+    background: url('../../images/metalCircles.jpg') no-repeat scroll center center / cover;
 }
 
 #skill .sec-overlay {
     background: rgba(255,255,255, .92);
+    opacity: 1;
     height: 100%;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 100px;
 }
+
+.smallSkills {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333333;
+}
+
 .skillList {
     font-size: 20px;
     color: #333;
@@ -737,7 +745,7 @@ header.nav.hide-menu {
 }
 
 .skill-left {
-    margin-top: 120px;
+    margin-top: 136px;
 }
 
 .skill-left p {
@@ -967,7 +975,6 @@ header.nav.hide-menu {
 }
 
 .portfolio-top .title {
-    color: #fff;
     margin-bottom: 60px;
 }
 
@@ -978,7 +985,7 @@ header.nav.hide-menu {
 }
 .portfolio-category li a {
     display: block;
-    color: #fff;
+    color: #333;
     text-transform: uppercase;
     text-decoration: none;
     padding-bottom: 10px;
@@ -1070,8 +1077,8 @@ header.nav.hide-menu {
 
 .protfolio-content .p-title {
     font-weight: 400;
-    font-size: 15px;
-    color: #fff;
+    font-size: 20px;
+    color: #ffcc33;
     text-transform: uppercase;
 }
 
