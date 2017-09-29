@@ -715,7 +715,7 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #skill {
-    background: url('../../images/metalCircles.jpg') no-repeat scroll center center / cover;
+    background: url('../../images/metalCircles.png') no-repeat scroll center center / cover;
 }
 
 #skill .sec-overlay {
@@ -1337,7 +1337,7 @@ header.nav.hide-menu {
  ----------------------------------- */
 
 #funfacts {
-    background: url('../../images/fun-facts-bg.jpg') no-repeat scroll center center / cover;
+    background: url('../../images/fun-facts-bg.png') no-repeat scroll center center / cover;
 }
 
 #funfacts .sec-inner {
